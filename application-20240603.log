@@ -1,0 +1,16 @@
+2024-06-03 13:38:16.467 [main] INFO  de.qytera.qtaf.core - Clear log data
+2024-06-03 13:38:16.570 [main] WARN  de.qytera.qtaf.core - Failed to find key 'driver.version' in JVM arguments (-Ddriver.version), environment variables (DRIVER_VERSION) or configuration file C:\Users\mzdih\Documents\QyteraProjekte\Syneco\QtafDownoaldProblem\reproduceQtafDownloadProblem\src\test\resources\qtaf.json
+2024-06-03 13:38:19.296 [main] INFO  de.qytera.qtaf.core - [DriverFactory] Use driver chrome
+2024-06-03 13:38:19.296 [main] INFO  de.qytera.qtaf.core - [DriverFactory] Driver initialized: chrome
+2024-06-03 13:38:19.311 [main] INFO  de.qytera.qtaf.core - [DriverFactory] Driver configured
+2024-06-03 13:38:19.410 [main] INFO  de.qytera.qtaf.core - [QTAF] - testing started
+2024-06-03 13:38:19.596 [main] INFO  de.qytera.qtaf.core - [Test] [de.syneco.TestOne.testFailure] started
+2024-06-03 13:38:19.613 [main] WARN  de.qytera.qtaf.core - Failed to find key 'console.colors' in JVM arguments (-Dconsole.colors), environment variables (CONSOLE_COLORS) or configuration file C:\Users\mzdih\Documents\QyteraProjekte\Syneco\QtafDownoaldProblem\reproduceQtafDownloadProblem\src\test\resources\qtaf.json
+2024-06-03 13:38:19.922 [main] WARN  de.qytera.qtaf.core - Failed to find key 'console.colors' in JVM arguments (-Dconsole.colors), environment variables (CONSOLE_COLORS) or configuration file C:\Users\mzdih\Documents\QyteraProjekte\Syneco\QtafDownoaldProblem\reproduceQtafDownloadProblem\src\test\resources\qtaf.json
+2024-06-03 13:38:19.922 [main] INFO  de.qytera.qtaf.core - [Test] [de.syneco.TestOne.testFailure] [0;91mfailure[0m
+2024-06-03 13:38:20.079 [main] INFO  de.qytera.qtaf.core - [Test] [de.syneco.TestOne.testSuccess] started
+2024-06-03 13:38:20.080 [main] WARN  de.qytera.qtaf.core - Failed to find key 'console.colors' in JVM arguments (-Dconsole.colors), environment variables (CONSOLE_COLORS) or configuration file C:\Users\mzdih\Documents\QyteraProjekte\Syneco\QtafDownoaldProblem\reproduceQtafDownloadProblem\src\test\resources\qtaf.json
+2024-06-03 13:38:20.213 [main] WARN  de.qytera.qtaf.core - Failed to find key 'console.colors' in JVM arguments (-Dconsole.colors), environment variables (CONSOLE_COLORS) or configuration file C:\Users\mzdih\Documents\QyteraProjekte\Syneco\QtafDownoaldProblem\reproduceQtafDownloadProblem\src\test\resources\qtaf.json
+2024-06-03 13:38:20.213 [main] INFO  de.qytera.qtaf.core - [Test] [de.syneco.TestOne.testSuccess] [0;92msuccess[0m
+2024-06-03 13:38:20.215 [main] INFO  de.qytera.qtaf.core - [QTAF] - testing finished
+2024-06-03 13:38:20.266 [main] INFO  de.qytera.qtaf.core - [QTAF] Log files persisted

@@ -1,0 +1,746 @@
+{
+  "uuid": "501e8f5f-7713-43fe-8bcb-1c41ec8b387f",
+  "suiteInfo": {
+    "name": "Default Suite",
+    "outputDir": "C:\\Users\\mzdih\\Documents\\QyteraProjekte\\Syneco\\QtafDownoaldProblem\\reproduceQtafDownloadProblem\\test-output\\Default Suite"
+  },
+  "systemInfo": {
+    "osName": "Windows 11",
+    "javaVersion": "17.0.3",
+    "userDir": "C:\\Users\\mzdih\\Documents\\QyteraProjekte\\Syneco\\QtafDownoaldProblem\\reproduceQtafDownloadProblem"
+  },
+  "processInfo": {
+    "pid": 3784
+  },
+  "threadInfo": {
+    "threadId": 1,
+    "threadName": "main"
+  },
+  "osName": "Windows 11",
+  "driverName": "chrome",
+  "tags": {},
+  "start": "Jun 3, 2024, 1:38:19 PM",
+  "end": "Jun 3, 2024, 1:38:20 PM",
+  "duration": 808,
+  "logDirectory": "C:\\Users\\mzdih\\Documents\\QyteraProjekte\\Syneco\\QtafDownoaldProblem\\reproduceQtafDownloadProblem\\logs\\2024-06-03\\13-38-16-chrome-501e8f5f-7713-43fe-8bcb-1c41ec8b387f",
+  "testFeatureLogCollections": [
+    {
+      "featureId": "de.syneco.TestOne",
+      "featureDescription": "",
+      "testScenarioLogCollection": [
+        {
+          "featureId": "de.syneco.TestOne",
+          "scenarioId": "de.syneco.TestOne.testFailure-b6a0ed5c-e944-4f9c-aab2-4d8ab8984e77",
+          "scenarioName": "Test Failure",
+          "abstractScenarioId": "de.syneco.TestOne.testFailure",
+          "instanceId": "b6a0ed5c-e944-4f9c-aab2-4d8ab8984e77",
+          "description": "This test should fail",
+          "start": "Jun 3, 2024, 1:38:19 PM",
+          "end": "Jun 3, 2024, 1:38:19 PM",
+          "duration": 337,
+          "threadId": 1,
+          "threadName": "main",
+          "groups": [],
+          "groupDependencies": [],
+          "methodDependencies": [],
+          "testParameters": [],
+          "annotations": [
+            {}
+          ],
+          "status": "FAILURE",
+          "logMessages": [
+            {
+              "methodName": "de.syneco.TestOne.testFailure",
+              "step": {
+                "name": "\u003cno-message\u003e",
+                "description": "\u003cno-message\u003e"
+              },
+              "stepParameters": [],
+              "screenshotBefore": "",
+              "screenshotAfter": "C:\\Users\\mzdih\\Documents\\QyteraProjekte\\Syneco\\QtafDownoaldProblem\\reproduceQtafDownloadProblem\\logs\\2024-06-03\\13-38-16-chrome-501e8f5f-7713-43fe-8bcb-1c41ec8b387f\\annotation_805184575_after_0196efd2-1928-422c-815a-4ffca0d182fe.png",
+              "status": "FAILED",
+              "uuid": "0196efd2-1928-422c-815a-4ffca0d182fe",
+              "assertions": [
+                {
+                  "type": "ASSERT_EQUALS",
+                  "condition": false,
+                  "actual": 4,
+                  "expected": 3,
+                  "status": "FAILED",
+                  "uuid": "09845f37-e0cc-4dbc-b5da-11c070214c4a",
+                  "assertions": [],
+                  "error": {
+                    "type": "java.lang.AssertionError",
+                    "message": "\u003cno-message\u003e expected [3] but found [4]",
+                    "stackTrace": [
+                      {
+                        "className": "org.testng.Assert",
+                        "classLoaderName": "app",
+                        "methodName": "fail",
+                        "fileName": "Assert.java",
+                        "lineNumber": 111,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "org.testng.Assert",
+                        "classLoaderName": "app",
+                        "methodName": "failNotEquals",
+                        "fileName": "Assert.java",
+                        "lineNumber": 1578,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "org.testng.Assert",
+                        "classLoaderName": "app",
+                        "methodName": "assertEqualsImpl",
+                        "fileName": "Assert.java",
+                        "lineNumber": 150,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "org.testng.Assert",
+                        "classLoaderName": "app",
+                        "methodName": "assertEquals",
+                        "fileName": "Assert.java",
+                        "lineNumber": 132,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "de.qytera.qtaf.testng.context.AssertionContext",
+                        "classLoaderName": "app",
+                        "methodName": "assertEquals",
+                        "fileName": "AssertionContext.java",
+                        "lineNumber": 327,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "de.qytera.qtaf.testng.context.AssertionContext",
+                        "classLoaderName": "app",
+                        "methodName": "assertEquals",
+                        "fileName": "AssertionContext.java",
+                        "lineNumber": 313,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "de.qytera.qtaf.testng.context.AssertionContext",
+                        "classLoaderName": "app",
+                        "methodName": "assertEquals",
+                        "fileName": "AssertionContext.java",
+                        "lineNumber": 301,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "de.syneco.TestOne",
+                        "classLoaderName": "app",
+                        "methodName": "testFailure",
+                        "fileName": "TestOne.java",
+                        "lineNumber": 19,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "moduleName": "java.base",
+                        "moduleVersion": "17.0.3",
+                        "className": "jdk.internal.reflect.NativeMethodAccessorImpl",
+                        "methodName": "invoke0",
+                        "fileName": "NativeMethodAccessorImpl.java",
+                        "lineNumber": -2,
+                        "isNativeMethod": true
+                      },
+                      {
+                        "moduleName": "java.base",
+                        "moduleVersion": "17.0.3",
+                        "className": "jdk.internal.reflect.NativeMethodAccessorImpl",
+                        "methodName": "invoke",
+                        "fileName": "NativeMethodAccessorImpl.java",
+                        "lineNumber": 77,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "moduleName": "java.base",
+                        "moduleVersion": "17.0.3",
+                        "className": "jdk.internal.reflect.DelegatingMethodAccessorImpl",
+                        "methodName": "invoke",
+                        "fileName": "DelegatingMethodAccessorImpl.java",
+                        "lineNumber": 43,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "moduleName": "java.base",
+                        "moduleVersion": "17.0.3",
+                        "className": "java.lang.reflect.Method",
+                        "methodName": "invoke",
+                        "fileName": "Method.java",
+                        "lineNumber": 568,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "org.testng.internal.invokers.MethodInvocationHelper",
+                        "classLoaderName": "app",
+                        "methodName": "invokeMethod",
+                        "fileName": "MethodInvocationHelper.java",
+                        "lineNumber": 139,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "org.testng.internal.invokers.TestInvoker",
+                        "classLoaderName": "app",
+                        "methodName": "invokeMethod",
+                        "fileName": "TestInvoker.java",
+                        "lineNumber": 664,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "org.testng.internal.invokers.TestInvoker",
+                        "classLoaderName": "app",
+                        "methodName": "invokeTestMethod",
+                        "fileName": "TestInvoker.java",
+                        "lineNumber": 227,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "org.testng.internal.invokers.MethodRunner",
+                        "classLoaderName": "app",
+                        "methodName": "runInSequence",
+                        "fileName": "MethodRunner.java",
+                        "lineNumber": 50,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "org.testng.internal.invokers.TestInvoker$MethodInvocationAgent",
+                        "classLoaderName": "app",
+                        "methodName": "invoke",
+                        "fileName": "TestInvoker.java",
+                        "lineNumber": 957,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "org.testng.internal.invokers.TestInvoker",
+                        "classLoaderName": "app",
+                        "methodName": "invokeTestMethods",
+                        "fileName": "TestInvoker.java",
+                        "lineNumber": 200,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "org.testng.internal.invokers.TestMethodWorker",
+                        "classLoaderName": "app",
+                        "methodName": "invokeTestMethods",
+                        "fileName": "TestMethodWorker.java",
+                        "lineNumber": 148,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "org.testng.internal.invokers.TestMethodWorker",
+                        "classLoaderName": "app",
+                        "methodName": "run",
+                        "fileName": "TestMethodWorker.java",
+                        "lineNumber": 128,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "moduleName": "java.base",
+                        "moduleVersion": "17.0.3",
+                        "className": "java.util.ArrayList",
+                        "methodName": "forEach",
+                        "fileName": "ArrayList.java",
+                        "lineNumber": 1511,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "org.testng.TestRunner",
+                        "classLoaderName": "app",
+                        "methodName": "privateRun",
+                        "fileName": "TestRunner.java",
+                        "lineNumber": 848,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "org.testng.TestRunner",
+                        "classLoaderName": "app",
+                        "methodName": "run",
+                        "fileName": "TestRunner.java",
+                        "lineNumber": 621,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "org.testng.SuiteRunner",
+                        "classLoaderName": "app",
+                        "methodName": "runTest",
+                        "fileName": "SuiteRunner.java",
+                        "lineNumber": 443,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "org.testng.SuiteRunner",
+                        "classLoaderName": "app",
+                        "methodName": "runSequentially",
+                        "fileName": "SuiteRunner.java",
+                        "lineNumber": 437,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "org.testng.SuiteRunner",
+                        "classLoaderName": "app",
+                        "methodName": "privateRun",
+                        "fileName": "SuiteRunner.java",
+                        "lineNumber": 397,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "org.testng.SuiteRunner",
+                        "classLoaderName": "app",
+                        "methodName": "run",
+                        "fileName": "SuiteRunner.java",
+                        "lineNumber": 336,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "org.testng.SuiteRunnerWorker",
+                        "classLoaderName": "app",
+                        "methodName": "runSuite",
+                        "fileName": "SuiteRunnerWorker.java",
+                        "lineNumber": 52,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "org.testng.SuiteRunnerWorker",
+                        "classLoaderName": "app",
+                        "methodName": "run",
+                        "fileName": "SuiteRunnerWorker.java",
+                        "lineNumber": 95,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "org.testng.TestNG",
+                        "classLoaderName": "app",
+                        "methodName": "runSuitesSequentially",
+                        "fileName": "TestNG.java",
+                        "lineNumber": 1280,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "org.testng.TestNG",
+                        "classLoaderName": "app",
+                        "methodName": "runSuitesLocally",
+                        "fileName": "TestNG.java",
+                        "lineNumber": 1200,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "org.testng.TestNG",
+                        "classLoaderName": "app",
+                        "methodName": "runSuites",
+                        "fileName": "TestNG.java",
+                        "lineNumber": 1114,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "org.testng.TestNG",
+                        "classLoaderName": "app",
+                        "methodName": "run",
+                        "fileName": "TestNG.java",
+                        "lineNumber": 1082,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "com.intellij.rt.testng.IDEARemoteTestNG",
+                        "classLoaderName": "app",
+                        "methodName": "run",
+                        "fileName": "IDEARemoteTestNG.java",
+                        "lineNumber": 66,
+                        "isNativeMethod": false
+                      },
+                      {
+                        "className": "com.intellij.rt.testng.RemoteTestNGStarter",
+                        "classLoaderName": "app",
+                        "methodName": "main",
+                        "fileName": "RemoteTestNGStarter.java",
+                        "lineNumber": 105,
+                        "isNativeMethod": false
+                      }
+                    ]
+                  },
+                  "level": "INFO",
+                  "message": "\u003cno-message\u003e",
+                  "featureId": "de.syneco.TestOne",
+                  "abstractScenarioId": "de.syneco.TestOne.testFailure",
+                  "scenarioId": "de.syneco.TestOne.testFailure-b6a0ed5c-e944-4f9c-aab2-4d8ab8984e77"
+                }
+              ],
+              "start": "Jun 3, 2024, 1:38:19 PM",
+              "end": "Jun 3, 2024, 1:38:19 PM",
+              "error": {
+                "type": "java.lang.AssertionError",
+                "message": "\u003cno-message\u003e expected [3] but found [4]",
+                "stackTrace": [
+                  {
+                    "className": "org.testng.Assert",
+                    "classLoaderName": "app",
+                    "methodName": "fail",
+                    "fileName": "Assert.java",
+                    "lineNumber": 111,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "org.testng.Assert",
+                    "classLoaderName": "app",
+                    "methodName": "failNotEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 1578,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "org.testng.Assert",
+                    "classLoaderName": "app",
+                    "methodName": "assertEqualsImpl",
+                    "fileName": "Assert.java",
+                    "lineNumber": 150,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "org.testng.Assert",
+                    "classLoaderName": "app",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 132,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "de.qytera.qtaf.testng.context.AssertionContext",
+                    "classLoaderName": "app",
+                    "methodName": "assertEquals",
+                    "fileName": "AssertionContext.java",
+                    "lineNumber": 327,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "de.qytera.qtaf.testng.context.AssertionContext",
+                    "classLoaderName": "app",
+                    "methodName": "assertEquals",
+                    "fileName": "AssertionContext.java",
+                    "lineNumber": 313,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "de.qytera.qtaf.testng.context.AssertionContext",
+                    "classLoaderName": "app",
+                    "methodName": "assertEquals",
+                    "fileName": "AssertionContext.java",
+                    "lineNumber": 301,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "de.syneco.TestOne",
+                    "classLoaderName": "app",
+                    "methodName": "testFailure",
+                    "fileName": "TestOne.java",
+                    "lineNumber": 19,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "moduleName": "java.base",
+                    "moduleVersion": "17.0.3",
+                    "className": "jdk.internal.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2,
+                    "isNativeMethod": true
+                  },
+                  {
+                    "moduleName": "java.base",
+                    "moduleVersion": "17.0.3",
+                    "className": "jdk.internal.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 77,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "moduleName": "java.base",
+                    "moduleVersion": "17.0.3",
+                    "className": "jdk.internal.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "moduleName": "java.base",
+                    "moduleVersion": "17.0.3",
+                    "className": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 568,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "org.testng.internal.invokers.MethodInvocationHelper",
+                    "classLoaderName": "app",
+                    "methodName": "invokeMethod",
+                    "fileName": "MethodInvocationHelper.java",
+                    "lineNumber": 139,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "org.testng.internal.invokers.TestInvoker",
+                    "classLoaderName": "app",
+                    "methodName": "invokeMethod",
+                    "fileName": "TestInvoker.java",
+                    "lineNumber": 664,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "org.testng.internal.invokers.TestInvoker",
+                    "classLoaderName": "app",
+                    "methodName": "invokeTestMethod",
+                    "fileName": "TestInvoker.java",
+                    "lineNumber": 227,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "org.testng.internal.invokers.MethodRunner",
+                    "classLoaderName": "app",
+                    "methodName": "runInSequence",
+                    "fileName": "MethodRunner.java",
+                    "lineNumber": 50,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "org.testng.internal.invokers.TestInvoker$MethodInvocationAgent",
+                    "classLoaderName": "app",
+                    "methodName": "invoke",
+                    "fileName": "TestInvoker.java",
+                    "lineNumber": 957,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "org.testng.internal.invokers.TestInvoker",
+                    "classLoaderName": "app",
+                    "methodName": "invokeTestMethods",
+                    "fileName": "TestInvoker.java",
+                    "lineNumber": 200,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "org.testng.internal.invokers.TestMethodWorker",
+                    "classLoaderName": "app",
+                    "methodName": "invokeTestMethods",
+                    "fileName": "TestMethodWorker.java",
+                    "lineNumber": 148,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "org.testng.internal.invokers.TestMethodWorker",
+                    "classLoaderName": "app",
+                    "methodName": "run",
+                    "fileName": "TestMethodWorker.java",
+                    "lineNumber": 128,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "moduleName": "java.base",
+                    "moduleVersion": "17.0.3",
+                    "className": "java.util.ArrayList",
+                    "methodName": "forEach",
+                    "fileName": "ArrayList.java",
+                    "lineNumber": 1511,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "org.testng.TestRunner",
+                    "classLoaderName": "app",
+                    "methodName": "privateRun",
+                    "fileName": "TestRunner.java",
+                    "lineNumber": 848,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "org.testng.TestRunner",
+                    "classLoaderName": "app",
+                    "methodName": "run",
+                    "fileName": "TestRunner.java",
+                    "lineNumber": 621,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "org.testng.SuiteRunner",
+                    "classLoaderName": "app",
+                    "methodName": "runTest",
+                    "fileName": "SuiteRunner.java",
+                    "lineNumber": 443,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "org.testng.SuiteRunner",
+                    "classLoaderName": "app",
+                    "methodName": "runSequentially",
+                    "fileName": "SuiteRunner.java",
+                    "lineNumber": 437,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "org.testng.SuiteRunner",
+                    "classLoaderName": "app",
+                    "methodName": "privateRun",
+                    "fileName": "SuiteRunner.java",
+                    "lineNumber": 397,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "org.testng.SuiteRunner",
+                    "classLoaderName": "app",
+                    "methodName": "run",
+                    "fileName": "SuiteRunner.java",
+                    "lineNumber": 336,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "org.testng.SuiteRunnerWorker",
+                    "classLoaderName": "app",
+                    "methodName": "runSuite",
+                    "fileName": "SuiteRunnerWorker.java",
+                    "lineNumber": 52,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "org.testng.SuiteRunnerWorker",
+                    "classLoaderName": "app",
+                    "methodName": "run",
+                    "fileName": "SuiteRunnerWorker.java",
+                    "lineNumber": 95,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "org.testng.TestNG",
+                    "classLoaderName": "app",
+                    "methodName": "runSuitesSequentially",
+                    "fileName": "TestNG.java",
+                    "lineNumber": 1280,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "org.testng.TestNG",
+                    "classLoaderName": "app",
+                    "methodName": "runSuitesLocally",
+                    "fileName": "TestNG.java",
+                    "lineNumber": 1200,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "org.testng.TestNG",
+                    "classLoaderName": "app",
+                    "methodName": "runSuites",
+                    "fileName": "TestNG.java",
+                    "lineNumber": 1114,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "org.testng.TestNG",
+                    "classLoaderName": "app",
+                    "methodName": "run",
+                    "fileName": "TestNG.java",
+                    "lineNumber": 1082,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "com.intellij.rt.testng.IDEARemoteTestNG",
+                    "classLoaderName": "app",
+                    "methodName": "run",
+                    "fileName": "IDEARemoteTestNG.java",
+                    "lineNumber": 66,
+                    "isNativeMethod": false
+                  },
+                  {
+                    "className": "com.intellij.rt.testng.RemoteTestNGStarter",
+                    "classLoaderName": "app",
+                    "methodName": "main",
+                    "fileName": "RemoteTestNGStarter.java",
+                    "lineNumber": 105,
+                    "isNativeMethod": false
+                  }
+                ]
+              },
+              "level": "INFO",
+              "message": "\u003cno-message\u003e",
+              "featureId": "de.syneco.TestOne",
+              "abstractScenarioId": "de.syneco.TestOne.testFailure",
+              "scenarioId": "de.syneco.TestOne.testFailure-b6a0ed5c-e944-4f9c-aab2-4d8ab8984e77"
+            }
+          ],
+          "screenshotPaths": [
+            "C:\\Users\\mzdih\\Documents\\QyteraProjekte\\Syneco\\QtafDownoaldProblem\\reproduceQtafDownloadProblem\\logs\\2024-06-03\\13-38-16-chrome-501e8f5f-7713-43fe-8bcb-1c41ec8b387f\\de.syneco.TestOne.testFailure-b6a0ed5c-e944-4f9c-aab2-4d8ab8984e77_before.png",
+            "C:\\Users\\mzdih\\Documents\\QyteraProjekte\\Syneco\\QtafDownoaldProblem\\reproduceQtafDownloadProblem\\logs\\2024-06-03\\13-38-16-chrome-501e8f5f-7713-43fe-8bcb-1c41ec8b387f\\de.syneco.TestOne.testFailure-b6a0ed5c-e944-4f9c-aab2-4d8ab8984e77_after.png"
+          ],
+          "screenshotBefore": "C:\\Users\\mzdih\\Documents\\QyteraProjekte\\Syneco\\QtafDownoaldProblem\\reproduceQtafDownloadProblem\\logs\\2024-06-03\\13-38-16-chrome-501e8f5f-7713-43fe-8bcb-1c41ec8b387f/de.syneco.TestOne.testFailure-b6a0ed5c-e944-4f9c-aab2-4d8ab8984e77_before.png",
+          "screenshotAfter": "C:\\Users\\mzdih\\Documents\\QyteraProjekte\\Syneco\\QtafDownoaldProblem\\reproduceQtafDownloadProblem\\logs\\2024-06-03\\13-38-16-chrome-501e8f5f-7713-43fe-8bcb-1c41ec8b387f/de.syneco.TestOne.testFailure-b6a0ed5c-e944-4f9c-aab2-4d8ab8984e77_after.png",
+          "tags": {}
+        },
+        {
+          "featureId": "de.syneco.TestOne",
+          "scenarioId": "de.syneco.TestOne.testSuccess-93bdb770-275a-4cb5-92a3-822bf3608f35",
+          "scenarioName": "Test Success",
+          "abstractScenarioId": "de.syneco.TestOne.testSuccess",
+          "instanceId": "93bdb770-275a-4cb5-92a3-822bf3608f35",
+          "description": "This test should pass",
+          "start": "Jun 3, 2024, 1:38:19 PM",
+          "end": "Jun 3, 2024, 1:38:20 PM",
+          "duration": 157,
+          "threadId": 1,
+          "threadName": "main",
+          "groups": [],
+          "groupDependencies": [],
+          "methodDependencies": [],
+          "testParameters": [],
+          "annotations": [
+            {}
+          ],
+          "status": "SUCCESS",
+          "logMessages": [
+            {
+              "methodName": "de.syneco.TestOne.testSuccess",
+              "step": {
+                "name": "\u003cno-message\u003e",
+                "description": "\u003cno-message\u003e"
+              },
+              "stepParameters": [],
+              "screenshotBefore": "",
+              "screenshotAfter": "",
+              "status": "PASSED",
+              "uuid": "07f54b62-96e1-4ddb-909a-69cb60d1d7f0",
+              "assertions": [
+                {
+                  "type": "ASSERT_EQUALS",
+                  "condition": false,
+                  "actual": 4,
+                  "expected": 4,
+                  "status": "PASSED",
+                  "uuid": "8deac557-7c9b-48c2-ae44-8bbab95e8623",
+                  "assertions": [],
+                  "level": "INFO",
+                  "message": "\u003cno-message\u003e",
+                  "featureId": "de.syneco.TestOne",
+                  "abstractScenarioId": "de.syneco.TestOne.testSuccess",
+                  "scenarioId": "de.syneco.TestOne.testSuccess-93bdb770-275a-4cb5-92a3-822bf3608f35"
+                }
+              ],
+              "start": "Jun 3, 2024, 1:38:20 PM",
+              "end": "Jun 3, 2024, 1:38:20 PM",
+              "level": "INFO",
+              "message": "\u003cno-message\u003e",
+              "featureId": "de.syneco.TestOne",
+              "abstractScenarioId": "de.syneco.TestOne.testSuccess",
+              "scenarioId": "de.syneco.TestOne.testSuccess-93bdb770-275a-4cb5-92a3-822bf3608f35"
+            }
+          ],
+          "screenshotPaths": [
+            "C:\\Users\\mzdih\\Documents\\QyteraProjekte\\Syneco\\QtafDownoaldProblem\\reproduceQtafDownloadProblem\\logs\\2024-06-03\\13-38-16-chrome-501e8f5f-7713-43fe-8bcb-1c41ec8b387f\\de.syneco.TestOne.testSuccess-93bdb770-275a-4cb5-92a3-822bf3608f35_before.png",
+            "C:\\Users\\mzdih\\Documents\\QyteraProjekte\\Syneco\\QtafDownoaldProblem\\reproduceQtafDownloadProblem\\logs\\2024-06-03\\13-38-16-chrome-501e8f5f-7713-43fe-8bcb-1c41ec8b387f\\de.syneco.TestOne.testSuccess-93bdb770-275a-4cb5-92a3-822bf3608f35_after.png"
+          ],
+          "screenshotBefore": "C:\\Users\\mzdih\\Documents\\QyteraProjekte\\Syneco\\QtafDownoaldProblem\\reproduceQtafDownloadProblem\\logs\\2024-06-03\\13-38-16-chrome-501e8f5f-7713-43fe-8bcb-1c41ec8b387f/de.syneco.TestOne.testSuccess-93bdb770-275a-4cb5-92a3-822bf3608f35_before.png",
+          "screenshotAfter": "C:\\Users\\mzdih\\Documents\\QyteraProjekte\\Syneco\\QtafDownoaldProblem\\reproduceQtafDownloadProblem\\logs\\2024-06-03\\13-38-16-chrome-501e8f5f-7713-43fe-8bcb-1c41ec8b387f/de.syneco.TestOne.testSuccess-93bdb770-275a-4cb5-92a3-822bf3608f35_after.png",
+          "tags": {}
+        }
+      ]
+    }
+  ]
+}
