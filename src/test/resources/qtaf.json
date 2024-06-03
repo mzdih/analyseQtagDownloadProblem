@@ -1,1 +1,141 @@
-{  "tests": {    "suite": {      "name": ""    },    "package": "tests",    "groups": null,    "continueOnAssertionFailure": true  },  "driver": {    "name": "chrome",    "remoteUrl": null,    "implicitWaitTimeout": 0,    "quitAfterTesting": true,    "screenshots": {      "beforeScenario": true,      "afterScenario": true,      "beforeStep": false,      "afterStep": false,      "afterStepFailure": true    },    "options": [],    "capabilities": {},    "preferences": {}  },  "logging": {    "enabled": true,    "logSteps": false  },  "xray": {    "enabled": false,    "url": {      "xray": null,      "jira": null    },    "service": "cloud",    "projectKey": null,    "authentication": {      "xray": {        "clientId": null,        "clientSecret": null,        "bearerToken": null      },      "jira": {        "username": null,        "apiToken": null      }    },    "resultsUpload": {      "assignee": null,      "testPlanKey": null,      "environments": {        "enabled": true,        "os": true,        "driver": true      },      "scenarioReportEvidence": true,      "scenarioImageEvidence": true,      "customStatus": {        "testExecutionIssue": {          "passed": null,          "failed": null        },        "test": {          "passed": null,          "failed": null,          "pending": null,          "skipped": null        },        "step": {          "passed": null,          "failed": null,          "pending": null,          "skipped": null,          "undefined": null        }      },      "tests": {        "info": {          "keepJiraSummary": false,          "steps": {            "update": false,            "merge": false          }        },        "iterations": {          "parameters": {            "maxLength": {              "name": null,              "value": null            }          }        }      }    }  },  "testrail": {    "enabled": false,    "url": null,    "authentication": {      "clientId": null,      "clientSecret": null    },    "runId": null  },  "security": {    "key": null  },  "htmlReport": {    "enabled": true  },  "framework": {    "packageNames": [    ]  }}
+{
+  "page": {
+    "url": "https://test.synection.de",
+    "e-portal": "https://stadtwerk-kunde.test.e-portal.de",
+    "synection": "https://test.synection.de",
+    "synfolio": "https://test-pfm.synection.de",
+    "tranchen": "https://test.synection.de/tranchetool/contract-list",
+    "userName": "Qytera TestUser"
+  },
+  "tests": {
+    "suite": {
+      "name": ""
+    },
+    "package": "com.syneco.synection.tests",
+    "groups": null,
+    "continueOnAssertionFailure": true
+  },
+  "driver": {
+    "name": "chrome",
+    "remoteUrl": null,
+    "implicitWaitTimeout": 0,
+    "quitAfterTesting": true,
+    "htmlDump": {
+      "beforeScenario": true,
+      "afterScenario": true,
+      "beforeStep": false,
+      "afterStep": false,
+      "afterStepFailure": true
+    },
+    "screenshots": {
+      "beforeScenario": true,
+      "afterScenario": true,
+      "beforeStep": false,
+      "afterStep": false,
+      "afterStepFailure": true
+    },
+    "record": {
+      "network": false,
+      "screencast": false
+    },
+    "options": [
+      "--window-size=1920,1080",
+      "--disable-extensions",
+      "--disable-popup-blocking",
+      "--test-type",
+      "--disable-gpu",
+      "--no-sandbox",
+      "--disable-dev-shm-usage",
+      "--disable-software-rasterizer"
+    ],
+    "capabilities": {},
+    "preferences": {
+      "profile": {
+        "default_content_settings": {
+          "popups": 0
+        }
+      },
+      "download": {
+        "default_directory": "$USER_DIR",
+        "prompt_for_download": false,
+        "directory_upgrade": true
+      }
+    }
+  },
+  "logging": {
+    "enabled": true,
+    "logSteps": true
+  },
+  "xray": {
+    "enabled": true,
+    "url": {
+      "xray": "https://jira.collaboration.syneco.net",
+      "jira": null
+    },
+    "service": "cloud",
+    "projectKey": "SQA",
+    "authentication": {
+      "xray": {
+        "clientId": null,
+        "clientSecret": null,
+        "bearerToken": null
+      },
+      "jira": {
+        "username": null,
+        "apiToken": null
+      }
+    },
+    "resultsUpload": {
+      "scenarioReportEvidence": true,
+      "scenarioImageEvidence": true,
+      "customStatus": {
+        "test": {
+          "passed": null,
+          "failed": null,
+          "pending": null,
+          "skipped": null
+        },
+        "step": {
+          "passed": null,
+          "failed": null,
+          "pending": null,
+          "skipped": null,
+          "undefined": null
+        },
+        "testExecutionIssue": {
+          "failed": "DONE",
+          "passed": "DONE"
+        }
+      },
+      "tests": {
+        "info": {
+          "keepJiraSummary": false,
+          "steps": {
+            "update": true,
+            "merge": true
+          }
+        },
+        "iterations": {
+          "parameters": {
+            "maxLength": {
+              "name": null,
+              "value": 100
+            }
+          }
+        }
+      }
+    }
+  },
+  "htmlReport": {
+    "enabled": true
+  },
+  "console": {
+    "colors": true
+  },
+  "framework": {
+    "packageNames": [
+      "com.syneco.synection.event_subscriber",
+      "com.syneco.synection.gson"
+    ]
+  }
+}
