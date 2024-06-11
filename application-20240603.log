@@ -14,3 +14,81 @@
 2024-06-03 13:38:20.213 [main] INFO  de.qytera.qtaf.core - [Test] [de.syneco.TestOne.testSuccess] [0;92msuccess[0m
 2024-06-03 13:38:20.215 [main] INFO  de.qytera.qtaf.core - [QTAF] - testing finished
 2024-06-03 13:38:20.266 [main] INFO  de.qytera.qtaf.core - [QTAF] Log files persisted
+2024-06-03 17:21:26.926 [main] INFO  de.qytera.qtaf.core - Clear log data
+2024-06-03 17:21:27.125 [main] WARN  de.qytera.qtaf.core - Failed to find key 'driver.version' in JVM arguments (-Ddriver.version), environment variables (DRIVER_VERSION) or configuration file C:\Users\mzdih\Documents\QyteraProjekte\Syneco\QtafDownoaldProblem\analyseQtagDownloadProblem\src\test\resources\qtaf.json
+2024-06-03 17:21:34.230 [main] INFO  de.qytera.qtaf.core - [DriverFactory] Use driver chrome
+2024-06-03 17:21:34.231 [main] INFO  de.qytera.qtaf.core - [DriverFactory] Driver initialized: chrome
+2024-06-03 17:21:34.272 [main] INFO  de.qytera.qtaf.core - [DriverFactory] Driver configured
+2024-06-03 17:21:34.640 [main] INFO  de.qytera.qtaf.core - [QTAF] - testing started
+2024-06-03 17:21:34.752 [main] INFO  de.qytera.qtaf.core - [Test] [de.syneco.TestOne.testFailure] started
+2024-06-03 17:21:35.760 [main] WARN  de.qytera.qtaf.core - Failed to find key 'console.colors' in JVM arguments (-Dconsole.colors), environment variables (CONSOLE_COLORS) or configuration file C:\Users\mzdih\Documents\QyteraProjekte\Syneco\QtafDownoaldProblem\analyseQtagDownloadProblem\src\test\resources\qtaf.json
+2024-06-03 17:21:36.908 [main] WARN  de.qytera.qtaf.core - Failed to find key 'console.colors' in JVM arguments (-Dconsole.colors), environment variables (CONSOLE_COLORS) or configuration file C:\Users\mzdih\Documents\QyteraProjekte\Syneco\QtafDownoaldProblem\analyseQtagDownloadProblem\src\test\resources\qtaf.json
+2024-06-03 17:21:36.910 [main] INFO  de.qytera.qtaf.core - [Test] [de.syneco.TestOne.testFailure] [0;91mfailure[0m
+2024-06-03 17:21:37.809 [main] INFO  de.qytera.qtaf.core - [Test] [de.syneco.TestOne.testSuccess] started
+2024-06-03 17:21:38.598 [main] WARN  de.qytera.qtaf.core - Failed to find key 'console.colors' in JVM arguments (-Dconsole.colors), environment variables (CONSOLE_COLORS) or configuration file C:\Users\mzdih\Documents\QyteraProjekte\Syneco\QtafDownoaldProblem\analyseQtagDownloadProblem\src\test\resources\qtaf.json
+2024-06-03 17:21:38.602 [main] WARN  de.qytera.qtaf.core - Failed to find key 'console.colors' in JVM arguments (-Dconsole.colors), environment variables (CONSOLE_COLORS) or configuration file C:\Users\mzdih\Documents\QyteraProjekte\Syneco\QtafDownoaldProblem\analyseQtagDownloadProblem\src\test\resources\qtaf.json
+2024-06-03 17:21:38.603 [main] INFO  de.qytera.qtaf.core - [Test] [de.syneco.TestOne.testSuccess] [0;92msuccess[0m
+2024-06-03 17:21:39.331 [main] INFO  de.qytera.qtaf.core - [QTAF] - testing finished
+2024-06-03 17:21:39.574 [main] INFO  de.qytera.qtaf.core - [QTAF] Log files persisted
+2024-06-03 17:33:20.975 [main] INFO  de.qytera.qtaf.core - Clear log data
+2024-06-03 17:33:21.113 [main] WARN  de.qytera.qtaf.core - Failed to find key 'driver.version' in JVM arguments (-Ddriver.version), environment variables (DRIVER_VERSION) or configuration file C:\Users\mzdih\Documents\QyteraProjekte\Syneco\QtafDownoaldProblem\analyseQtagDownloadProblem\src\test\resources\qtaf.json
+2024-06-03 17:33:24.737 [main] INFO  de.qytera.qtaf.core - [DriverFactory] Use driver chrome
+2024-06-03 17:33:24.739 [main] INFO  de.qytera.qtaf.core - [DriverFactory] Driver initialized: chrome
+2024-06-03 17:33:24.772 [main] INFO  de.qytera.qtaf.core - [DriverFactory] Driver configured
+2024-06-03 17:33:25.101 [main] INFO  de.qytera.qtaf.core - [QTAF] - testing started
+2024-06-03 17:33:25.981 [main] ERROR de.qytera.qtaf.core - Cannot invoke "de.qytera.qtaf.core.log.model.collection.TestScenarioLogCollection.addScreenshotPath(String)" because "scenarioLog" is null
+2024-06-03 17:33:25.984 [main] INFO  de.qytera.qtaf.core - [Test] [de.syneco.TestOne.download] started
+2024-06-03 17:33:36.408 [main] INFO  de.qytera.qtaf.core - [Test] [de.syneco.TestOne.download] [0;91mfailure[0m
+2024-06-03 17:33:36.469 [main] INFO  de.qytera.qtaf.core - [QTAF] - testing finished
+2024-06-03 17:33:40.157 [main] INFO  de.qytera.qtaf.core - [QTAF] Log files persisted
+2024-06-03 17:35:51.888 [main] INFO  de.qytera.qtaf.core - Clear log data
+2024-06-03 17:35:52.321 [main] WARN  de.qytera.qtaf.core - Failed to find key 'driver.version' in JVM arguments (-Ddriver.version), environment variables (DRIVER_VERSION) or configuration file C:\Users\mzdih\Documents\QyteraProjekte\Syneco\QtafDownoaldProblem\analyseQtagDownloadProblem\src\test\resources\qtaf.json
+2024-06-03 17:35:56.585 [main] INFO  de.qytera.qtaf.core - [DriverFactory] Use driver chrome
+2024-06-03 17:35:56.585 [main] INFO  de.qytera.qtaf.core - [DriverFactory] Driver initialized: chrome
+2024-06-03 17:35:56.612 [main] INFO  de.qytera.qtaf.core - [DriverFactory] Driver configured
+2024-06-03 17:35:56.833 [main] INFO  de.qytera.qtaf.core - [QTAF] - testing started
+2024-06-03 17:35:56.916 [main] INFO  de.qytera.qtaf.core - [Test] [de.syneco.TestOne.download] started
+2024-06-03 17:36:09.128 [main] INFO  de.qytera.qtaf.core - [Test] [de.syneco.TestOne.download] [0;91mfailure[0m
+2024-06-03 17:36:09.670 [main] INFO  de.qytera.qtaf.core - [QTAF] - testing finished
+2024-06-03 17:36:12.501 [main] INFO  de.qytera.qtaf.core - [QTAF] Log files persisted
+2024-06-03 17:37:00.358 [main] INFO  de.qytera.qtaf.core - Clear log data
+2024-06-03 17:37:00.654 [main] WARN  de.qytera.qtaf.core - Failed to find key 'driver.version' in JVM arguments (-Ddriver.version), environment variables (DRIVER_VERSION) or configuration file C:\Users\mzdih\Documents\QyteraProjekte\Syneco\QtafDownoaldProblem\analyseQtagDownloadProblem\src\test\resources\qtaf.json
+2024-06-03 17:37:05.651 [main] INFO  de.qytera.qtaf.core - [DriverFactory] Use driver chrome
+2024-06-03 17:37:05.652 [main] INFO  de.qytera.qtaf.core - [DriverFactory] Driver initialized: chrome
+2024-06-03 17:37:05.682 [main] INFO  de.qytera.qtaf.core - [DriverFactory] Driver configured
+2024-06-03 17:37:05.983 [main] INFO  de.qytera.qtaf.core - [QTAF] - testing started
+2024-06-03 17:37:06.101 [main] INFO  de.qytera.qtaf.core - [Test] [de.syneco.TestOne.download] started
+2024-06-03 17:38:01.713 [main] INFO  de.qytera.qtaf.core - [Test] [de.syneco.TestOne.download] [0;91mfailure[0m
+2024-06-03 17:38:02.230 [main] INFO  de.qytera.qtaf.core - [QTAF] - testing finished
+2024-06-03 17:38:02.567 [main] INFO  de.qytera.qtaf.core - [QTAF] Log files persisted
+2024-06-03 17:43:31.591 [main] INFO  de.qytera.qtaf.core - Clear log data
+2024-06-03 17:43:31.844 [main] WARN  de.qytera.qtaf.core - Failed to find key 'driver.version' in JVM arguments (-Ddriver.version), environment variables (DRIVER_VERSION) or configuration file C:\Users\mzdih\Documents\QyteraProjekte\Syneco\QtafDownoaldProblem\analyseQtagDownloadProblem\src\test\resources\qtaf.json
+2024-06-03 17:43:35.705 [main] INFO  de.qytera.qtaf.core - [DriverFactory] Use driver chrome
+2024-06-03 17:43:35.705 [main] INFO  de.qytera.qtaf.core - [DriverFactory] Driver initialized: chrome
+2024-06-03 17:43:35.731 [main] INFO  de.qytera.qtaf.core - [DriverFactory] Driver configured
+2024-06-03 17:43:35.997 [main] INFO  de.qytera.qtaf.core - [QTAF] - testing started
+2024-06-03 17:43:36.348 [main] ERROR de.qytera.qtaf.core - Cannot invoke "de.qytera.qtaf.core.log.model.collection.TestScenarioLogCollection.addScreenshotPath(String)" because "scenarioLog" is null
+2024-06-03 17:43:36.356 [main] INFO  de.qytera.qtaf.core - [Test] [de.syneco.TestOne.download] started
+2024-06-03 17:43:48.353 [main] INFO  de.qytera.qtaf.core - [Test] [de.syneco.TestOne.download] [0;92msuccess[0m
+2024-06-03 17:43:48.363 [main] INFO  de.qytera.qtaf.core - [QTAF] - testing finished
+2024-06-03 17:43:50.575 [main] INFO  de.qytera.qtaf.core - [QTAF] Log files persisted
+2024-06-03 17:45:01.881 [main] INFO  de.qytera.qtaf.core - Clear log data
+2024-06-03 17:45:02.091 [main] WARN  de.qytera.qtaf.core - Failed to find key 'driver.version' in JVM arguments (-Ddriver.version), environment variables (DRIVER_VERSION) or configuration file C:\Users\mzdih\Documents\QyteraProjekte\Syneco\QtafDownoaldProblem\analyseQtagDownloadProblem\src\test\resources\qtaf.json
+2024-06-03 17:45:05.768 [main] INFO  de.qytera.qtaf.core - [DriverFactory] Use driver chrome
+2024-06-03 17:45:05.769 [main] INFO  de.qytera.qtaf.core - [DriverFactory] Driver initialized: chrome
+2024-06-03 17:45:05.896 [main] INFO  de.qytera.qtaf.core - [DriverFactory] Driver configured
+2024-06-03 17:45:06.512 [main] INFO  de.qytera.qtaf.core - [QTAF] - testing started
+2024-06-03 17:45:06.605 [main] INFO  de.qytera.qtaf.core - [Test] [de.syneco.TestOne.download] started
+2024-06-03 17:45:17.322 [main] INFO  de.qytera.qtaf.core - [Test] [de.syneco.TestOne.download] [0;92msuccess[0m
+2024-06-03 17:45:17.651 [main] INFO  de.qytera.qtaf.core - [QTAF] - testing finished
+2024-06-03 17:45:17.870 [main] INFO  de.qytera.qtaf.core - [QTAF] Log files persisted
+2024-06-03 18:09:32.683 [main] INFO  de.qytera.qtaf.core - Clear log data
+2024-06-03 18:09:32.904 [main] WARN  de.qytera.qtaf.core - Failed to find key 'driver.version' in JVM arguments (-Ddriver.version), environment variables (DRIVER_VERSION) or configuration file C:\Users\mzdih\Documents\QyteraProjekte\Syneco\QtafDownoaldProblem\analyseQtagDownloadProblem\src\test\resources\qtaf.json
+2024-06-03 18:09:38.311 [main] INFO  de.qytera.qtaf.core - [DriverFactory] Use driver chrome
+2024-06-03 18:09:38.311 [main] INFO  de.qytera.qtaf.core - [DriverFactory] Driver initialized: chrome
+2024-06-03 18:09:38.329 [main] INFO  de.qytera.qtaf.core - [DriverFactory] Driver configured
+2024-06-03 18:09:38.626 [main] INFO  de.qytera.qtaf.core - [QTAF] - testing started
+2024-06-03 18:09:39.210 [main] INFO  de.qytera.qtaf.core - [Test] [de.syneco.TestOne.download] started
+2024-06-03 18:09:50.857 [main] INFO  de.qytera.qtaf.core - [Test] [de.syneco.TestOne.download] [0;92msuccess[0m
+2024-06-03 18:09:50.863 [main] INFO  de.qytera.qtaf.core - [QTAF] - testing finished
+2024-06-03 18:09:58.924 [main] INFO  de.qytera.qtaf.core - [QTAF] Log files persisted

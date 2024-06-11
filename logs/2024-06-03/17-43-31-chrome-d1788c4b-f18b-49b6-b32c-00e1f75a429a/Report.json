@@ -1,0 +1,62 @@
+{
+  "uuid": "d1788c4b-f18b-49b6-b32c-00e1f75a429a",
+  "suiteInfo": {
+    "name": "Default Suite",
+    "outputDir": "C:\\Users\\mzdih\\Documents\\QyteraProjekte\\Syneco\\QtafDownoaldProblem\\analyseQtagDownloadProblem\\test-output\\Default Suite"
+  },
+  "systemInfo": {
+    "osName": "Windows 11",
+    "javaVersion": "17.0.3",
+    "userDir": "C:\\Users\\mzdih\\Documents\\QyteraProjekte\\Syneco\\QtafDownoaldProblem\\analyseQtagDownloadProblem"
+  },
+  "processInfo": {
+    "pid": 14564
+  },
+  "threadInfo": {
+    "threadId": 1,
+    "threadName": "main"
+  },
+  "osName": "Windows 11",
+  "driverName": "chrome",
+  "tags": {},
+  "start": "Jun 3, 2024, 5:43:35 PM",
+  "end": "Jun 3, 2024, 5:43:48 PM",
+  "duration": 14550,
+  "logDirectory": "C:\\Users\\mzdih\\Documents\\QyteraProjekte\\Syneco\\QtafDownoaldProblem\\analyseQtagDownloadProblem\\logs\\2024-06-03\\17-43-31-chrome-d1788c4b-f18b-49b6-b32c-00e1f75a429a",
+  "testFeatureLogCollections": [
+    {
+      "featureId": "de.syneco.TestOne",
+      "featureDescription": "",
+      "testScenarioLogCollection": [
+        {
+          "featureId": "de.syneco.TestOne",
+          "scenarioId": "de.syneco.TestOne.download-79958493-814a-452d-b38d-3c502e2e554a",
+          "scenarioName": "Test download file",
+          "abstractScenarioId": "de.syneco.TestOne.download",
+          "instanceId": "79958493-814a-452d-b38d-3c502e2e554a",
+          "description": "",
+          "start": "Jun 3, 2024, 5:43:36 PM",
+          "end": "Jun 3, 2024, 5:43:47 PM",
+          "duration": 11735,
+          "threadId": 1,
+          "threadName": "main",
+          "groups": [],
+          "groupDependencies": [],
+          "methodDependencies": [],
+          "testParameters": [],
+          "annotations": [
+            {}
+          ],
+          "status": "SUCCESS",
+          "logMessages": [],
+          "screenshotPaths": [
+            "C:\\Users\\mzdih\\Documents\\QyteraProjekte\\Syneco\\QtafDownoaldProblem\\analyseQtagDownloadProblem\\logs\\2024-06-03\\17-43-31-chrome-d1788c4b-f18b-49b6-b32c-00e1f75a429a\\de.syneco.TestOne.download-79958493-814a-452d-b38d-3c502e2e554a_after.png"
+          ],
+          "screenshotBefore": "",
+          "screenshotAfter": "C:\\Users\\mzdih\\Documents\\QyteraProjekte\\Syneco\\QtafDownoaldProblem\\analyseQtagDownloadProblem\\logs\\2024-06-03\\17-43-31-chrome-d1788c4b-f18b-49b6-b32c-00e1f75a429a/de.syneco.TestOne.download-79958493-814a-452d-b38d-3c502e2e554a_after.png",
+          "tags": {}
+        }
+      ]
+    }
+  ]
+}
