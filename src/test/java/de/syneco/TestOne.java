@@ -13,7 +13,7 @@ import java.net.URL;
 
 public class TestOne {
 
-    private static final String SELENIUM_HUB_URL = "http://localhost:4444/wd/hub";
+    private static final String SELENIUM_HUB_URL = "http://selenium-hub:4444/wd/hub";
 
     public static WebDriver remoteChromeDriver() throws MalformedURLException {
         WebDriverManager.chromedriver().setup();
