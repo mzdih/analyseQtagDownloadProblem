@@ -16,7 +16,7 @@
     "continueOnAssertionFailure": true
   },
   "driver": {
-    "name": "chrome",
+    "name": "chrome-remote",
     "remoteUrl": null,
     "implicitWaitTimeout": 0,
     "quitAfterTesting": true,
