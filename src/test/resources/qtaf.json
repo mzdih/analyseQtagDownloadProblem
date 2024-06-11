@@ -16,7 +16,7 @@
     "continueOnAssertionFailure": true
   },
   "driver": {
-    "name": "chrome",
+    "name": "chrome-remote",
     "remoteUrl": null,
     "implicitWaitTimeout": 0,
     "quitAfterTesting": true,
@@ -56,7 +56,7 @@
         }
       },
       "download": {
-        "default_directory": "$USER_DIR",
+        "default_directory": "$USER_DIR/src",
         "prompt_for_download": false,
         "directory_upgrade": true
       }
