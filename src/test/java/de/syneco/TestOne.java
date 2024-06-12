@@ -20,7 +20,7 @@ import static com.codeborne.selenide.Selenide.sleep;
 )
 public class TestOne extends QtafTestNGContext {
     @Test(testName = "Test download file")
-    public void download() {
+    public void download() throws IOException {
         System.out.println("TEST BEGIN");
         assertTrue(((HasDownloads) driver).getDownloadableFiles().isEmpty(), "There should be no files downloaded");
         DownloadPage downloadPage = load(DownloadPage.class);
@@ -45,6 +45,8 @@ public class TestOne extends QtafTestNGContext {
         System.out.println("size: " + files.size());
         System.out.println("first file: " + files.get(0));
 
+        Path targetDirectory = Files.createTempDirectory("download");
+        ((HasDownloads) driver).downloadFile(files.get(0), targetDirectory);
 
         //Path targetDirectory = Files.createTempDirectory("download");
 
