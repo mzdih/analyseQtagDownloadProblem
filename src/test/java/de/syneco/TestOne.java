@@ -1,6 +1,8 @@
 package de.syneco;
 
+import de.qytera.qtaf.core.config.ConfigurationFactory;
 import de.qytera.qtaf.core.config.annotations.TestFeature;
+import de.qytera.qtaf.core.io.DirectoryHelper;
 import de.qytera.qtaf.testng.context.QtafTestNGContext;
 import org.openqa.selenium.HasDownloads;
 import org.testng.annotations.Test;
@@ -22,6 +24,15 @@ public class TestOne extends QtafTestNGContext {
         System.out.println("TEST BEGIN");
         // assertTrue(((HasDownloads) driver).getDownloadableFiles().isEmpty(), "There should be no files downloaded");
         DownloadPage downloadPage = load(DownloadPage.class);
+        String downloadDirectory = ConfigurationFactory.getInstance().getValue("driver.preferences.download.default_directory").toString();
+        System.out.println("== downloadDirectory ==");
+        System.out.println(downloadDirectory);
+
+        String downloadDirectoryWithHelper = DirectoryHelper.preparePath(config.getString("driver.preferences.download.default_directory"));
+        System.out.println("== downloadDirectoryWithHelper ==");
+        System.out.println(downloadDirectoryWithHelper);
+
+
         driver.get("https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html");
         sleep(9000);
         downloadPage.simpleDocButton().click();
