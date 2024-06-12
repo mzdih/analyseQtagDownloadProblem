@@ -40,6 +40,12 @@ public class TestOne extends QtafTestNGContext {
         System.out.println("Download ended");
         assertFalse(((HasDownloads) driver).getDownloadableFiles().isEmpty(), "There should be a file downloaded");
 
+        List<String> files = ((HasDownloads) driver).getDownloadableFiles();
+        System.out.println("== downloaded files ==");
+        System.out.println("size: " + files.size());
+        System.out.println("first file: " + files.get(0));
+
+
         //Path targetDirectory = Files.createTempDirectory("download");
 
         //((HasDownloads) driver).downloadFile("airtravel.csv", Files.createTempDirectory("download"));
