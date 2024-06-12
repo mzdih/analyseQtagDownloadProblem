@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.List;
 
 import static com.codeborne.selenide.Selenide.sleep;
@@ -49,7 +50,8 @@ public class TestOne extends QtafTestNGContext {
         // Path targetDirectory = Files.createTempDirectory(DirectoryHelper.preparePath(config.getString("driver.preferences.download.default_directory")));
 
         // Path targetDirectory = Files.createTempDirectory("download");
-        Path targetDirectory = Files.createTempDirectory("/var/jenkins_home/workspace/DownloadIssue/download");
+        Path dir = Paths.get("/var/jenkins_home/workspace/DownloadIssue");
+        Path targetDirectory = Files.createTempDirectory(dir, "download");
 
         ((HasDownloads) driver).downloadFile(files.get(0), targetDirectory);
 
