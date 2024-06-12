@@ -20,7 +20,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <qtaf.version>0.2.19</qtaf.version>
+        <qtaf.version>OLIVER-QTAF</qtaf.version>
     </properties>
 
 </project>
