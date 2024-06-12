@@ -22,7 +22,7 @@ public class TestOne extends QtafTestNGContext {
     @Test(testName = "Test download file")
     public void download() {
         System.out.println("TEST BEGIN");
-        // assertTrue(((HasDownloads) driver).getDownloadableFiles().isEmpty(), "There should be no files downloaded");
+        assertTrue(((HasDownloads) driver).getDownloadableFiles().isEmpty(), "There should be no files downloaded");
         DownloadPage downloadPage = load(DownloadPage.class);
         String downloadDirectory = ConfigurationFactory.getInstance().getValue("driver.preferences.download.default_directory").toString();
         System.out.println("== downloadDirectory ==");
@@ -38,7 +38,7 @@ public class TestOne extends QtafTestNGContext {
         downloadPage.simpleDocButton().click();
         sleep(3000);
         System.out.println("Download ended");
-        // assertFalse(((HasDownloads) driver).getDownloadableFiles().isEmpty(), "There should be a file downloaded");
+        assertFalse(((HasDownloads) driver).getDownloadableFiles().isEmpty(), "There should be a file downloaded");
 
         //Path targetDirectory = Files.createTempDirectory("download");
 
