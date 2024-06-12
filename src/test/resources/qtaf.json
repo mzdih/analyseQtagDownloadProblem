@@ -56,7 +56,7 @@
         }
       },
       "download": {
-        "default_directory": "Downloads",
+        "default_directory": "$USER_DIR",
         "prompt_for_download": false,
         "directory_upgrade": true
       }
