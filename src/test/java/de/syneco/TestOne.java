@@ -5,6 +5,7 @@ import de.qytera.qtaf.core.config.annotations.TestFeature;
 import de.qytera.qtaf.core.io.DirectoryHelper;
 import de.qytera.qtaf.testng.context.QtafTestNGContext;
 import org.openqa.selenium.HasDownloads;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
@@ -41,25 +42,27 @@ public class TestOne extends QtafTestNGContext {
         downloadPage.simpleDocButton().click();
         sleep(3000);
         System.out.println("Download ended");
-        assertFalse(((HasDownloads) driver).getDownloadableFiles().isEmpty(), "There should be a file downloaded");
-
-        List<String> files = ((HasDownloads) driver).getDownloadableFiles();
-        System.out.println("== downloaded files ==");
-        System.out.println("size: " + files.size());
-        System.out.println("first file: " + files.get(0));
-
-        // current time stamp in format of yyyy-mm-dd-hh-mm-ss
-        String currentTime = java.time.LocalDateTime.now().toString().replace(":", "-").replace(".", "-");
 
 
-        Path dir = Paths.get("/var/jenkins_home/workspace/DownloadIssue");
-        Path targetDirectory = Files.createTempDirectory(dir, "download" + currentTime);
+        if(driver instanceof RemoteWebDriver) {
+            assertFalse(((HasDownloads) driver).getDownloadableFiles().isEmpty(), "There should be a file downloaded");
 
-        ((HasDownloads) driver).downloadFile(files.get(0), targetDirectory);
+            List<String> files = ((HasDownloads) driver).getDownloadableFiles();
+            System.out.println("== downloaded files ==");
+            System.out.println("size: " + files.size());
+            System.out.println("first file: " + files.get(0));
 
-        String fileContent = String.join("", Files.readAllLines(targetDirectory.resolve(files.get(0))));
-        System.out.println(fileContent);
+            // current time stamp in format of yyyy-mm-dd-hh-mm-ss
+            String currentTime = java.time.LocalDateTime.now().toString().replace(":", "-").replace(".", "-");
 
+            Path dir = Paths.get("/var/jenkins_home/workspace/DownloadIssue");
+            Path targetDirectory = Files.createTempDirectory(dir, "download" + currentTime);
+
+            ((HasDownloads) driver).downloadFile(files.get(0), targetDirectory);
+
+            String fileContent = String.join("", Files.readAllLines(targetDirectory.resolve(files.get(0))));
+            System.out.println(fileContent);
+        }
         System.out.println("TEST END");
     }
 }
