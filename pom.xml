@@ -12,7 +12,7 @@
         <dependency>
             <groupId>de.qytera</groupId>
             <artifactId>qtaf-core</artifactId>
-            <version>${qtaf.version}</version>
+            <version>OLIVER-QTAF</version>
         </dependency>
     </dependencies>
 
