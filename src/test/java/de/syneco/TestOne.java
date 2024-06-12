@@ -48,8 +48,8 @@ public class TestOne extends QtafTestNGContext {
         System.out.println("size: " + files.size());
         System.out.println("first file: " + files.get(0));
 
-        // get current time stamp
-        long currentTime = System.currentTimeMillis();
+        // current time stamp in format of yyyy-mm-dd-hh-mm-ss
+        String currentTime = java.time.LocalDateTime.now().toString().replace(":", "-").replace(".", "-");
 
 
         Path dir = Paths.get("/var/jenkins_home/workspace/DownloadIssue");
