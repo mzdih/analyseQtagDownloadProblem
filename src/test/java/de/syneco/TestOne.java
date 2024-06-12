@@ -25,6 +25,7 @@ public class TestOne extends QtafTestNGContext {
         System.out.println("TEST BEGIN");
         assertTrue(((HasDownloads) driver).getDownloadableFiles().isEmpty(), "There should be no files downloaded");
         DownloadPage downloadPage = load(DownloadPage.class);
+        /*
         String downloadDirectory = ConfigurationFactory.getInstance().getValue("driver.preferences.download.default_directory").toString();
         System.out.println("== downloadDirectory ==");
         System.out.println(downloadDirectory);
@@ -32,6 +33,7 @@ public class TestOne extends QtafTestNGContext {
         String downloadDirectoryWithHelper = DirectoryHelper.preparePath(config.getString("driver.preferences.download.default_directory"));
         System.out.println("== downloadDirectoryWithHelper ==");
         System.out.println(downloadDirectoryWithHelper);
+         */
 
 
         driver.get("https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html");
@@ -46,42 +48,18 @@ public class TestOne extends QtafTestNGContext {
         System.out.println("size: " + files.size());
         System.out.println("first file: " + files.get(0));
 
-        // Path targetDirectory = Files.createTempDirectory("download");
-        // Path targetDirectory = Files.createTempDirectory(DirectoryHelper.preparePath(config.getString("driver.preferences.download.default_directory")));
+        // get current time stamp
+        long currentTime = System.currentTimeMillis();
 
-        // Path targetDirectory = Files.createTempDirectory("download");
+
         Path dir = Paths.get("/var/jenkins_home/workspace/DownloadIssue");
-        Path targetDirectory = Files.createTempDirectory(dir, "download");
+        Path targetDirectory = Files.createTempDirectory(dir, "download" + currentTime);
 
         ((HasDownloads) driver).downloadFile(files.get(0), targetDirectory);
 
         String fileContent = String.join("", Files.readAllLines(targetDirectory.resolve(files.get(0))));
         System.out.println(fileContent);
 
-        //Path targetDirectory = Files.createTempDirectory("download");
-
-        //((HasDownloads) driver).downloadFile("airtravel.csv", Files.createTempDirectory("download"));
-
-        /*
-        List<String> files = ((HasDownloads) driver).getDownloadableFiles();
-
-        // Sorting them to avoid differences when comparing the files
-        fileNames.sort(Comparator.naturalOrder());
-        files.sort(Comparator.naturalOrder());
-
-        Assertions.assertEquals(fileNames, files);
-        String downloadableFile = files.get(0);
-        Path targetDirectory = Files.createTempDirectory("download");
-
-        ((HasDownloads) driver).downloadFile(downloadableFile, targetDirectory);
-
-        String fileContent = String.join("", Files.readAllLines(targetDirectory.resolve(downloadableFile)));
-        Assertions.assertEquals("Hello, World!", fileContent);
-
-        ((HasDownloads) driver).deleteDownloadableFiles();
-
-        Assertions.assertTrue(((HasDownloads) driver).getDownloadableFiles().isEmpty());
-         */
         System.out.println("TEST END");
     }
 }
