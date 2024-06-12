@@ -46,7 +46,7 @@ public class TestOne extends QtafTestNGContext {
         System.out.println("first file: " + files.get(0));
 
         // Path targetDirectory = Files.createTempDirectory("download");
-        Path targetDirectory = Files.createTempDirectory(ConfigurationFactory.getInstance().getValue("driver.preferences.download.default_directory").toString());
+        Path targetDirectory = Files.createTempDirectory(DirectoryHelper.preparePath(config.getString("driver.preferences.download.default_directory")));
         ((HasDownloads) driver).downloadFile(files.get(0), targetDirectory);
 
         //Path targetDirectory = Files.createTempDirectory("download");
