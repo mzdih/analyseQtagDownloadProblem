@@ -18,7 +18,7 @@ import static com.codeborne.selenide.Selenide.sleep;
 )
 public class TestOne extends QtafTestNGContext {
     @Test(testName = "Test download file")
-    public void download() throws IOException {
+    public void download() {
         System.out.println("TEST BEGIN");
         assertTrue(((HasDownloads) driver).getDownloadableFiles().isEmpty(), "There should be no files downloaded");
         DownloadPage downloadPage = load(DownloadPage.class);
@@ -26,7 +26,7 @@ public class TestOne extends QtafTestNGContext {
         sleep(9000);
         downloadPage.simpleDocButton().click();
         sleep(3000);
-
+        System.out.println("Download ended");
         assertFalse(((HasDownloads) driver).getDownloadableFiles().isEmpty(), "There should be a file downloaded");
 
         //Path targetDirectory = Files.createTempDirectory("download");
