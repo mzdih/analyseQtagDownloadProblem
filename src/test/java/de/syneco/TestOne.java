@@ -24,19 +24,12 @@ public class TestOne extends QtafTestNGContext {
     @Test(testName = "Test download file")
     public void download() throws IOException {
         System.out.println("TEST BEGIN");
-        assertTrue(((HasDownloads) driver).getDownloadableFiles().isEmpty(), "There should be no files downloaded");
+
+        if(driver.getClass() == RemoteWebDriver.class) {
+            assertTrue(((HasDownloads) driver).getDownloadableFiles().isEmpty(), "There should be no files downloaded");
+        }
+
         DownloadPage downloadPage = load(DownloadPage.class);
-        /*
-        String downloadDirectory = ConfigurationFactory.getInstance().getValue("driver.preferences.download.default_directory").toString();
-        System.out.println("== downloadDirectory ==");
-        System.out.println(downloadDirectory);
-
-        String downloadDirectoryWithHelper = DirectoryHelper.preparePath(config.getString("driver.preferences.download.default_directory"));
-        System.out.println("== downloadDirectoryWithHelper ==");
-        System.out.println(downloadDirectoryWithHelper);
-         */
-
-
         driver.get("https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html");
         sleep(9000);
         downloadPage.simpleDocButton().click();
@@ -44,9 +37,9 @@ public class TestOne extends QtafTestNGContext {
         System.out.println("Download ended");
 
 
-        if(driver instanceof RemoteWebDriver) {
-            assertFalse(((HasDownloads) driver).getDownloadableFiles().isEmpty(), "There should be a file downloaded");
+        if(driver.getClass() == RemoteWebDriver.class) {
 
+            assertFalse(((HasDownloads) driver).getDownloadableFiles().isEmpty(), "There should be a file downloaded");
             List<String> files = ((HasDownloads) driver).getDownloadableFiles();
             System.out.println("== downloaded files ==");
             System.out.println("size: " + files.size());
