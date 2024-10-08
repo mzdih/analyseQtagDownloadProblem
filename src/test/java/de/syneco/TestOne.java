@@ -48,7 +48,7 @@ public class TestOne extends QtafTestNGContext {
             // current time stamp in format of yyyy-mm-dd-hh-mm-ss
             String currentTime = java.time.LocalDateTime.now().toString().replace(":", "-").replace(".", "-");
 
-            Path dir = Paths.get("/var/jenkins_home/workspace/DownloadIssue");
+            Path dir = Paths.get(".");
             Path targetDirectory = Files.createTempDirectory(dir, "download" + currentTime);
 
             ((HasDownloads) driver).downloadFile(files.get(0), targetDirectory);
