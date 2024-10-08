@@ -17,7 +17,7 @@
   },
   "driver": {
     "name": "chrome-remote",
-    "remoteUrl": null,
+    "remoteUrl": "http://localhost:4444",
     "implicitWaitTimeout": 0,
     "quitAfterTesting": true,
     "htmlDump": {
