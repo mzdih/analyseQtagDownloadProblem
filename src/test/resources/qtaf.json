@@ -16,7 +16,7 @@
     "continueOnAssertionFailure": true
   },
   "driver": {
-    "name": "chrome-remote",
+    "name": "edge",
     "remoteUrl": "http://localhost:4444",
     "implicitWaitTimeout": 0,
     "quitAfterTesting": true,
@@ -39,6 +39,7 @@
       "screencast": false
     },
     "options": [
+
       "--window-size=1920,1080",
       "--disable-extensions",
       "--disable-popup-blocking",
