@@ -12,7 +12,7 @@
         <dependency>
             <groupId>de.qytera</groupId>
             <artifactId>qtaf-core</artifactId>
-            <version>LOCAL-2024-10-08</version>
+            <version>LOCAL-2024-10-09</version>
         </dependency>
     </dependencies>
 
@@ -20,7 +20,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <qtaf.version>OLIVER-QTAF</qtaf.version>
+        <qtaf.version>LOCAL-2024-10-09</qtaf.version>
     </properties>
 
 </project>
